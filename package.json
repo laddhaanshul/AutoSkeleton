@@ -64,7 +64,7 @@
   "bugs": {
     "url": "https://github.com/auto-skeleton/auto-skeleton/issues"
   },
-  "homepage": "https://auto-skeleton.dev",
+  "homepage": "https://auto-skeleton.anshulladdha.in/",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
