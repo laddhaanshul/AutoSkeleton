@@ -23,7 +23,9 @@
         "forceConsistentCasingInFileNames": true,
         "types": [
             "react",
-            "react-dom"
+            "react-dom",
+            "jest",
+            "react-native"
         ]
     },
     "include": [
