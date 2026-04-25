@@ -1,6 +1,6 @@
 {
-  "name": "autoskeleton",
-  "version": "1.0.2",
+  "name": "@laddhaanshul/autoskeleton",
+  "version": "1.0.0",
   "description": "Automatically generate and render skeleton loading screens based on your React and React Native components. No configuration needed.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
