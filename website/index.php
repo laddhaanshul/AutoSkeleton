@@ -4,11 +4,11 @@
  * A beautiful landing page to promote the auto-skeleton npm package.
  */
 
-$packageName    = 'auto-skeleton';
+$packageName    = 'auto-skeleton-react-and-native';
 $version        = '1.0.0';
-$npmUrl         = 'https://www.npmjs.com/package/auto-skeleton';
-$githubUrl      = 'https://github.com/auto-skeleton/auto-skeleton';
-$installCommand = 'npm install auto-skeleton';
+$npmUrl         = 'https://www.npmjs.com/package/auto-skeleton-react-and-native';
+$githubUrl      = 'https://github.com/laddhaanshul/AutoSkeleton';
+$installCommand = 'npm install auto-skeleton-react-and-native';
 $pageTitle      = 'AutoSkeleton — Auto-generate Skeleton Loaders for React & React Native';
 $pageDesc       = 'Zero-config skeleton loading screens that automatically mirror your React and React Native component layouts. Just wrap and go.';
 
@@ -26,7 +26,7 @@ $features = [
     [
         'icon'  => '🌐',
         'title' => 'React & React Native',
-        'desc'  => 'One API, two platforms. Import from auto-skeleton for web and auto-skeleton/native for mobile — same props, same behaviour.',
+        'desc'  => 'One API, two platforms. Import from auto-skeleton-react-and-native for web and auto-skeleton-react-and-native/native for mobile — same props, same behaviour.',
     ],
     [
         'icon'  => '🎯',
@@ -63,12 +63,12 @@ $features = [
 $steps = [
     [
         'num'  => '01',
-        'code' => 'npm install auto-skeleton',
+        'code' => 'npm install auto-skeleton-react-and-native',
         'desc' => 'Add the package to your project.',
     ],
     [
         'num'  => '02',
-        'code' => "import { AutoSkeleton } from 'auto-skeleton';",
+        'code' => "import { AutoSkeleton } from 'auto-skeleton-react-and-native';",
         'desc' => 'Import the component (or /native for React Native).',
     ],
     [
@@ -942,7 +942,7 @@ $faqs = [
       </a>
 
       <div class="install-box" onclick="copyInstall(this)" title="Click to copy">
-        $ npm install auto-skeleton
+        $ npm install auto-skeleton-react-and-native
         <span class="copy-icon">⎘</span>
       </div>
 
@@ -1185,37 +1185,6 @@ $faqs = [
   </div>
 </section>
 
-<!-- ═══════════════════  TESTIMONIALS  ══════════════════════════ -->
-<section class="testimonials-section" id="testimonials">
-  <div class="container">
-    <div class="section-tag">
-      <span class="badge badge-accent">💬 Testimonials</span>
-    </div>
-    <h2 class="section-title">Loved by <span class="gradient-text">developers</span></h2>
-    <p class="section-desc">Teams from startups to enterprise ship faster with AutoSkeleton.</p>
-
-    <div class="testimonials-grid">
-      <?php foreach ($testimonials as $t): ?>
-      <div class="testimonial-card reveal">
-        <div class="testimonial-stars">★★★★★</div>
-        <p class="testimonial-text">"<?= htmlspecialchars($t['text']) ?>"</p>
-        <div class="testimonial-author">
-          <div
-            class="testimonial-avatar"
-            style="background: <?= $t['gradient'] ?>;"
-          >
-            <?= htmlspecialchars($t['avatar']) ?>
-          </div>
-          <div>
-            <div class="testimonial-name"><?= htmlspecialchars($t['name']) ?></div>
-            <div class="testimonial-role"><?= htmlspecialchars($t['role']) ?></div>
-          </div>
-        </div>
-      </div>
-      <?php endforeach; ?>
-    </div>
-  </div>
-</section>
 
 <!-- ═══════════════════  FAQ  ════════════════════════════════════ -->
 <section class="faq-section" id="faq">
@@ -1248,7 +1217,7 @@ $faqs = [
       <p>It takes one command to install and one prop to activate. No excuses.</p>
       <div class="cta-buttons">
         <a href="<?= htmlspecialchars($npmUrl) ?>" class="btn btn-primary" target="_blank" rel="noopener">
-          📦 npm install auto-skeleton
+          📦 npm install auto-skeleton-react-and-native
         </a>
         <a href="<?= htmlspecialchars($githubUrl) ?>" class="btn btn-outline" target="_blank" rel="noopener">
           View Source →
@@ -1283,7 +1252,7 @@ $faqs = [
 <script>
   // ── Copy install command ──
   function copyInstall(el) {
-    navigator.clipboard.writeText('npm install auto-skeleton').then(() => {
+    navigator.clipboard.writeText('npm install auto-skeleton-react-and-native').then(() => {
       const icon = el.querySelector('.copy-icon');
       icon.textContent = '✓';
       icon.style.color = '#4ade80';
