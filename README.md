@@ -110,7 +110,7 @@ function Screen() {
 Wrap your app once to set global defaults. Individual `AutoSkeleton` instances can still override locally.
 
 ```tsx
-import { SkeletonProvider, AutoSkeleton } from 'auto-skeleton';
+import { SkeletonProvider, AutoSkeleton } from 'auto-skeleton-react-and-native';
 
 function App() {
   return (
@@ -165,7 +165,7 @@ function App() {
 ### React Native with Dark Theme
 
 ```tsx
-import { AutoSkeleton } from 'auto-skeleton/native';
+import { AutoSkeleton } from 'auto-skeleton-react-and-native/native';
 
 <AutoSkeleton
   isLoading={isLoading}

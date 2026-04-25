@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, Image, TouchableOpacity, ScrollView, SafeAreaView, Dimensions } from 'react-native';
 // AutoSkeleton will be imported from our package
-import { AutoSkeleton } from 'auto-skeleton/native';
+import { AutoSkeleton } from 'auto-skeleton-react-and-native/native';
 
 const { width } = Dimensions.get('window');
 

@@ -1,15 +1,15 @@
 {
-    "name": "auto-skeleton-example",
+    "name": "auto-skeleton-react-and-native-example",
     "version": "1.0.0",
     "private": true,
-    "description": "Example app demonstrating auto-skeleton package",
+    "description": "Example app demonstrating auto-skeleton-react-and-native package",
     "scripts": {
         "start": "vite",
         "build": "vite build",
         "preview": "vite preview"
     },
     "dependencies": {
-        "auto-skeleton": "file:..",
+        "auto-skeleton-react-and-native": "file:..",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
     },

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { AutoSkeleton } from 'auto-skeleton';
+import { AutoSkeleton } from 'auto-skeleton-react-and-native';
 
 // ─── Demo Data ───────────────────────────────────────────────────────────────
 
@@ -1168,12 +1168,12 @@ export default function App() {
                     </div>
                     <div className="code-content">
                         <span className="c-cm">{'// 1. Install'}</span>{'\n'}
-                        {'npm install auto-skeleton\n\n'}
+                        {'npm install auto-skeleton-react-and-native\n\n'}
                         <span className="c-cm">{'// 2. React (Web) usage'}</span>{'\n'}
                         <span className="c-kw">import</span>{' { '}
                         <span className="c-fn">AutoSkeleton</span>
                         {' } '}<span className="c-kw">from</span>{' '}
-                        <span className="c-str">'auto-skeleton'</span>{'\n\n'}
+                        <span className="c-str">'auto-skeleton-react-and-native'</span>{'\n\n'}
                         <span className="c-tag">{'<AutoSkeleton'}</span>
                         {'\n  '}
                         <span className="c-att">isLoading</span>
@@ -1204,7 +1204,7 @@ export default function App() {
                         <span className="c-kw">import</span>{' { '}
                         <span className="c-fn">AutoSkeleton</span>
                         {' } '}<span className="c-kw">from</span>{' '}
-                        <span className="c-str">'auto-skeleton/native'</span>
+                        <span className="c-str">'auto-skeleton-react-and-native/native'</span>
                     </div>
                 </div>
             </section>
@@ -1213,7 +1213,7 @@ export default function App() {
             <footer className="footer">
                 <p>MIT License · Made with ♥ by the AutoSkeleton team</p>
                 <p style={{ marginTop: '8px', opacity: 0.6 }}>
-                    npm install auto-skeleton · github.com/auto-skeleton/auto-skeleton
+                    npm install auto-skeleton-react-and-native · github.com/auto-skeleton-react-and-native/auto-skeleton-react-and-native
                 </p>
             </footer>
         </>

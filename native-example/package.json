@@ -9,7 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "auto-skeleton": "file:../auto-skeleton-1.0.0.tgz",
+    "auto-skeleton-react-and-native": "1.0.1",
     "expo": "~54.0.33",
     "expo-status-bar": "~3.0.9",
     "react": "19.1.0",
