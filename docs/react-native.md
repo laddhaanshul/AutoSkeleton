@@ -5,7 +5,7 @@ AutoSkeleton features a dedicated, native-optimized engine for React Native and 
 ## Installation
 
 ```bash
-npm install auto-skeleton
+npm install autoskeleton
 ```
 
 *Note: AutoSkeleton does not require any native linking or CocoaPods installations. It is a pure JS/TS library using standard React Native primitives.*
@@ -17,7 +17,7 @@ When importing `AutoSkeleton` in a React Native project, you **must** import it 
 ```tsx
 import { StyleSheet, View, Text } from 'react-native';
 // Note the /native import path!
-import { AutoSkeleton } from 'auto-skeleton/native';
+import { AutoSkeleton } from 'autoskeleton/native';
 
 function ProfileScreen({ isLoading, user }) {
   if (isLoading) {
