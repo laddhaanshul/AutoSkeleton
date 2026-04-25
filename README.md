@@ -2,10 +2,10 @@
 
 > **Zero-config skeleton loading screens that automatically mirror your React and React Native component layouts.**
 
-[![npm version](https://img.shields.io/npm/v/@laddhaanshul/autoskeleton.svg?style=flat-square)](https://www.npmjs.com/package/@laddhaanshul/autoskeleton)
-[![npm downloads](https://img.shields.io/npm/dm/@laddhaanshul/autoskeleton.svg?style=flat-square)](https://www.npmjs.com/package/@laddhaanshul/autoskeleton)
-[![bundle size](https://img.shields.io/bundlephobia/minzip/@laddhaanshul/autoskeleton?style=flat-square&label=gzipped)](https://bundlephobia.com/package/@laddhaanshul/autoskeleton)
-[![license](https://img.shields.io/npm/l/@laddhaanshul/autoskeleton.svg?style=flat-square)](./LICENSE)
+[![npm version](https://img.shields.io/npm/v/auto-skeleton-react-and-native.svg?style=flat-square)](https://www.npmjs.com/package/auto-skeleton-react-and-native)
+[![npm downloads](https://img.shields.io/npm/dm/auto-skeleton-react-and-native.svg?style=flat-square)](https://www.npmjs.com/package/auto-skeleton-react-and-native)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/auto-skeleton-react-and-native?style=flat-square&label=gzipped)](https://bundlephobia.com/package/auto-skeleton-react-and-native)
+[![license](https://img.shields.io/npm/l/auto-skeleton-react-and-native.svg?style=flat-square)](./LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-ready-blue.svg?style=flat-square)](https://www.typescriptlang.org/)
 
 ---
@@ -27,11 +27,11 @@ Just wrap your component, pass `isLoading`, and AutoSkeleton handles the rest:
 ## Installation
 
 ```bash
-npm install @laddhaanshul/autoskeleton
+npm install auto-skeleton-react-and-native
 # or
-yarn add @laddhaanshul/autoskeleton
+yarn add auto-skeleton-react-and-native
 # or
-pnpm add @laddhaanshul/autoskeleton
+pnpm add auto-skeleton-react-and-native
 ```
 
 **Peer dependencies** (already in your project):
@@ -48,7 +48,7 @@ npm install react react-native  # for React Native
 ### React (Web)
 
 ```tsx
-import { AutoSkeleton } from '@laddhaanshul/autoskeleton';
+import { AutoSkeleton } from 'auto-skeleton-react-and-native';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -64,7 +64,7 @@ function App() {
 ### React Native
 
 ```tsx
-import { AutoSkeleton } from '@laddhaanshul/autoskeleton/native';
+import { AutoSkeleton } from 'auto-skeleton-react-and-native/native';
 
 function Screen() {
   const [isLoading, setIsLoading] = useState(true);

@@ -5,9 +5,9 @@ AutoSkeleton is a revolutionary, zero-configuration loading skeleton generator f
 ## Installation
 
 ```bash
-npm install @laddhaanshul/autoskeleton
+npm install auto-skeleton-react-and-native
 ```
-*(Or `yarn add @laddhaanshul/autoskeleton`, `pnpm add @laddhaanshul/autoskeleton`)*
+*(Or `yarn add auto-skeleton-react-and-native`, `pnpm add auto-skeleton-react-and-native`)*
 
 ## Basic Usage
 
@@ -16,7 +16,7 @@ The easiest way to use AutoSkeleton is to wrap your components in the `<AutoSkel
 ### Example
 
 ```tsx
-import { AutoSkeleton } from '@laddhaanshul/autoskeleton';
+import { AutoSkeleton } from 'auto-skeleton-react-and-native';
 
 function ProductFeed({ isLoading, products }) {
   if (isLoading) {
