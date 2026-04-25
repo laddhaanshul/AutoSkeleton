@@ -1,0 +1,10 @@
+node_modules/
+example/
+website/
+.git/
+.gitignore
+*.log
+rollup.config.js
+tsconfig.json
+.eslintrc*
+jest.config*
