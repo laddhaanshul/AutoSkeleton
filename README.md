@@ -10,6 +10,12 @@
 
 ---
 
+## Website
+
+https://auto-skeleton.anshulladdha.in/
+
+---
+
 ## Overview
 
 AutoSkeleton introspects your React component tree and renders shimmer placeholders that precisely match your layout — **no manual skeleton markup required**.
