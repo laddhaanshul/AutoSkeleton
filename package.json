@@ -54,15 +54,15 @@
   ],
   "author": {
     "name": "Auto Skeleton Contributors",
-    "url": "https://github.com/auto-skeleton/auto-skeleton"
+    "url": "https://github.com/laddhaanshul/AutoSkeleton"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/auto-skeleton/auto-skeleton.git"
+    "url": "https://github.com/laddhaanshul/AutoSkeleton.git"
   },
   "bugs": {
-    "url": "https://github.com/auto-skeleton/auto-skeleton/issues"
+    "url": "https://github.com/laddhaanshul/AutoSkeleton/issues"
   },
   "homepage": "https://auto-skeleton.anshulladdha.in/",
   "peerDependencies": {
