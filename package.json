@@ -1,6 +1,6 @@
 {
   "name": "auto-skeleton-react-and-native",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Automatically generate and render skeleton loading screens based on your React and React Native components. No configuration needed.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
